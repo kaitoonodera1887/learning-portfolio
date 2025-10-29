@@ -10,10 +10,31 @@
 - Gitの基本的なコマンドの習得と演習
 
 ### コマンドメモ
-- git init
+- ローカルリポジトリの作成：git init
+- ステージングエリアに変更を登録：git add [File name]
+- コミットを作成：git commit -m "コメント"
+- Git管理下のファイルの削除：git rm [File name]
+- Git管理下のディレクトリの削除：git rm -r [pass ]
+- ローカルリポジトリの状態の確認：git status
+- 各エリアの差分を確認：git diff
+- コミットの履歴の確認：git log
+- ワークツリーの変更の取り消し：git checkout
+- ステージングエリアに追加した変更をワークツリーへ戻す：git reset
+
+### 基本的な流れ（現在の理解）
+1. ディレクトリにREADME.mdを作成(VScode)
+2. git initでローカルリポジトリを作成
+3. git add README.mdでステージングエリアに追加
+4. git commit -m "コメント" でコミット/
+   git commitでも良いがVScodeでコメントを書く
+
+#### メモ
+状態の確認や削除等は、その都度行う。
+
+### 学び
+Gitの基本的な特徴やコマンドについて学んだ。今の所基本的な流れしか学んでいないが、自分で作成したプログラムも管理していきたい。
+
 
 ### 次回のTODO
-- 仮想環境内で pytest を導入して単体テストを追加
-- requirements.txt の作成
-- GitHub リモートの設定と初回プッシュ
+- todo-cliのコミットを自分が何をしているかを考えながら行う。
 
