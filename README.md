@@ -93,6 +93,7 @@ weighted avg |0.98| 0.98 |0.98 |171
 NRのRecallがWAKEに比べて低いので、見逃しが多いことがわかる。
 
 混同行列: 
+<img width="600" height="500" alt="Image" src="https://github.com/user-attachments/assets/be0336cf-e553-4573-8c10-4325a787274d" />
 
 $\begin{bmatrix}23~3\\1~144\end{bmatrix}$
 
@@ -111,6 +112,8 @@ idx | Feature | Importance<br>
 14| f14| 0.046561 
 11| f11|0.027361 
 13| f13|0.016311
+
+<img width="800" height="500" alt="Image" src="https://github.com/user-attachments/assets/28d67d5d-f936-4798-9476-57bb753dcac3" />
 
 上位の特徴量は、emg_rms、delta_abs、eeg_rmsであった。このことから、emg_rmsは覚醒時のきん筋活動量を強く反映し、delta_absは睡眠の深度、eeg_rmsはEEGのパワーを反映している。
 
